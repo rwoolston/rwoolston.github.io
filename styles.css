@@ -1,16 +1,19 @@
-.nav-link{
+.nav-link {
   font-size: 30px;
 }
-.navbar-nav{
+
+.navbar-nav {
   width: 50%;
   margin: auto;
   padding: 10px;
 }
-body{
+
+body {
   background-image: url(images/background.jpg);
   background-color: #5d5d5d;
 }
-.main{
+
+.main {
   font-size: 20px;
   width: 60%;
   margin: auto;
@@ -19,33 +22,39 @@ body{
   border-radius: 25px;
   margin-bottom: 50px;
 }
-.navbox{
+
+.navbox {
   position: relative;
   box-shadow: 7px 10px 10px;
 }
-.mainFlex{
+
+.mainFlex {
   display: flex;
   flex-direction: row-reverse;
 }
-.academicsFlex{
+
+.academicsFlex {
   display: flex;
   flex-direction: row;
 }
-.myPic{
+
+.myPic {
   border-radius: 15px;
   border: double 5px black;
   margin: 20px;
   width: 200px;
   height: 250px;
 }
-.academicsPic{
+
+.academicsPic {
   border-radius: 15px;
   border: double 5px black;
   margin: 20px;
   height: 200px;
   width: 200px;
 }
-footer{
+
+footer {
   padding-top: 10px;
   width: 100%;
   height: 5%;
@@ -55,37 +64,46 @@ footer{
   position: fixed;
   bottom: 0px;
 }
-h2{
+
+h2 {
   text-align: right;
 }
-p{
+
+p {
   text-indent: 50px;
 }
-.tableHead{
+
+.tableHead {
   font-size: 20px;
 }
-th{
+
+th {
   border: solid 1px black;
   font-weight: normal;
   font-size: 20px;
 }
-@media screen and (max-width:700px){
-  .mainFlex{
+
+@media screen and (max-width:700px) {
+  .mainFlex {
     flex-direction: column;
   }
-  .academicsFlex{
+
+  .academicsFlex {
     flex-direction: column;
   }
 }
-@media screen and (max-width:500px){
-  .main{
+
+@media screen and (max-width:500px) {
+  .main {
     font-size: 15px;
   }
-  .myPic{
+
+  .myPic {
     width: 155px;
     height: 200px;
   }
-  .academicsPic{
+
+  .academicsPic {
     width: 100px;
     height: 100px;
   }
