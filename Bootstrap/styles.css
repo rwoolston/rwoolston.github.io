@@ -1,0 +1,96 @@
+body {
+  background-image: url("images/background.png");
+  background-size: cover;
+  margin: 0;
+}
+
+.fluid-container {
+  background: white;
+  width: 100%;
+  margin: auto;
+}
+
+.mainblock {
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.card {
+  display: inline-block;
+  margin: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.amenities {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h1, h2 {
+  color: #70d6c6;
+}
+
+.navbar {
+  margin-top: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.flex {
+  display: flex;
+  flex-flow: nowrap;
+  width: 50%;
+  margin: auto;
+}
+
+.box1, .box2 {
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+}
+
+.box1 ul, .box2 ul {
+  list-style-type: none;
+}
+
+footer {
+  bottom: 0px;
+  position: relative;
+  width: 100%;
+  color: grey;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #2b2a2a;
+}
+.main{
+  display: flex;
+  flex-flow: nowrap;
+}
+.info, .map{
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 50%;
+}
+.info p{
+  font-size: 20px;
+  text-align: center;
+}
+.blank {
+  background-color: white;
+  height: 650px;
+}
